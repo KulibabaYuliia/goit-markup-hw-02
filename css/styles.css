@@ -196,3 +196,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
 }
+
+.portfolio-list-text {
+  color: var(--text-color);
+}
