@@ -9,7 +9,7 @@
 
 body {
   background-color: var(--primary-white-color);
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
 
@@ -23,13 +23,14 @@ body {
 }
 
 .btn {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -38,13 +39,13 @@ body {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-}
+} */
 
 /* logo */
 
 .logo {
   color: var(--brand-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -58,7 +59,8 @@ body {
 
 /* navigation */
 
-.nav-link .contacts-link {
+.nav-link,
+.contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -94,6 +96,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
+  text-align: center;
 }
 
 .hero-btn {
@@ -112,13 +115,17 @@ body {
 /* principles section */
 
 .principles-title,
-.ourteam-title,
+.ourteam-item-title,
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-dark-color);
+}
+
+.principles-title {
+  text-align: center;
 }
 
 .principles-text,
@@ -131,7 +138,8 @@ body {
 
 /* our work section */
 
-.ourwork-title {
+.ourwork-title,
+.ourteam-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
