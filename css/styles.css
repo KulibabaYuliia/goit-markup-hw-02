@@ -70,7 +70,6 @@ body {
 
 .nav-link {
   font-weight: 500;
-  color: var(--accent-dark-color);
 }
 
 .nav-link:hover,
@@ -120,7 +119,8 @@ body {
 /* principles section */
 
 .principles-item-title,
-.ourteam-item-title {
+.ourteam-item-title,
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,9 +128,9 @@ body {
   color: var(--accent-dark-color);
 }
 
-.principles-text,
-.portfolio-list-text,
-.ourteam-text {
+.principles-item-text,
+.portfolio-item-text,
+.ourteam-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -150,7 +150,7 @@ body {
 
 /* our team section */
 
-.ourteam {
+.ourteam-sec {
   background-color: var(--light-text-color);
 }
 
@@ -196,12 +196,4 @@ body {
   border-radius: 4px;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
-}
-
-.portfolio-list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--accent-dark-color);
 }
